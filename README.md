@@ -6,9 +6,9 @@ This repository tracks day-wise system design preparation notes and sample proje
 
 ## Contents
 
-- [Day-1](./Day-1/README.md): Introduction to system design and a URL shortener sample in Python and Java.
+- [Day-1](./Day-1/README.md): Introduction to system design and a URL shortener sample in Python and Java codes.
 
-## Goal
+## Goal 
 
 Build strong fundamentals in:
 - requirement analysis

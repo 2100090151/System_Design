@@ -7,6 +7,8 @@ This repository tracks day-wise system design preparation notes and sample proje
 ## Contents
 
 - [Day-1](./Day-1/README.md): Introduction to system design and a URL shortener sample in Python and Java.
+- [Day-2](./Day-2/README.md): Networking, scalability, and delivery fundamentals with a round-robin load balancer sample.
+- [Day-3](./Day-3/README.md): Databases, consistency, and partitioning fundamentals with a consistent hashing sample.
 
 ## Goal
 

@@ -7,6 +7,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-1](./Day-1/README.md): Introduction to system design and a URL shortener sample in Python and Java.
 - [Day-2](./Day-2/README.md): Networking, scalability, and delivery fundamentals with a round-robin load balancer sample.
 - [Day-3](./Day-3/README.md): Databases, consistency, and partitioning fundamentals with a consistent hashing sample.
+- [Day-4](./Day-4/README.md): Architecture, messaging, and API communication fundamentals with a publish-subscribe event bus sample.
 
 ## Goal 
 
@@ -51,3 +52,15 @@ Databases, consistency, partitioning, and distributed data fundamentals.
 [Read Day-3 notes](./Day-3/README.md)
 
 ![Day 3](./Day-3/Day3.png)
+
+## Day 4
+
+Architectural patterns, asynchronous communication, API choices, and real-time delivery models.
+
+- Topics: N-tier architecture, queues, pub/sub, ESB, monoliths vs microservices, EDA, CQRS, API Gateway, REST/GraphQL/gRPC, WebSockets
+- Focus: how services are structured and how they communicate without tight coupling
+- Sample project: publish-subscribe event bus in Python and Java
+
+[Read Day-4 notes](./Day-4/README.md)
+
+![Day 4](./Day-4/Day4.png)

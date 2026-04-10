@@ -75,3 +75,5 @@ Reliability, security, service discovery, and platform operations fundamentals f
 - Sample project: token bucket rate limiter in Python and Java
 
 [Read Day-5 notes](./Day-5/README.md)
+
+![Day 5](./Day-5/Day5.png)

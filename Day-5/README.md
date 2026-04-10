@@ -15,7 +15,9 @@ It covers:
 - SSL, TLS, and mTLS
 
 In short, Day 5 is about keeping services discoverable, resilient, observable, and secure while they run at scale.
-![Day 5](./Day4.png)
+
+![Day 5](./Day5.png)
+
 ## Core ideas
 
 ### Geohashing and quadtrees

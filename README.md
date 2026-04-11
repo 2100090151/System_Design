@@ -9,6 +9,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-3](./Day-3/README.md): Databases, consistency, and partitioning fundamentals with a consistent hashing sample.
 - [Day-4](./Day-4/README.md): Architecture, messaging, and API communication fundamentals with a publish-subscribe event bus sample.
 - [Day-5](./Day-5/README.md): Reliability, security, and platform operations fundamentals with a token bucket rate limiter sample.
+- [Day-6](./Day-6/README.md): Coordination, idempotency, and distributed workflow fundamentals with an idempotent request processor sample.
 
 ## Goal 
 
@@ -77,3 +78,15 @@ Reliability, security, service discovery, and platform operations fundamentals f
 [Read Day-5 notes](./Day-5/README.md)
 
 ![Day 5](./Day-5/Day5.png)
+
+## Day 6
+
+Coordination, retries, and workflow correctness fundamentals for distributed systems.
+
+- Topics: timeouts, retries, exponential backoff, jitter, idempotency, delivery guarantees, distributed locks, leader election, sagas, outbox/inbox, orchestration vs choreography
+- Focus: how to keep business operations correct when requests are duplicated or workflows fail midway
+- Sample project: idempotent request processor in Python and Java
+
+[Read Day-6 notes](./Day-6/README.md)
+
+![Day 6](./Day-6/Day6.png)

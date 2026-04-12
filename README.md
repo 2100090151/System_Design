@@ -10,6 +10,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-4](./Day-4/README.md): Architecture, messaging, and API communication fundamentals with a publish-subscribe event bus sample.
 - [Day-5](./Day-5/README.md): Reliability, security, and platform operations fundamentals with a token bucket rate limiter sample.
 - [Day-6](./Day-6/README.md): Coordination, idempotency, and distributed workflow fundamentals with an idempotent request processor sample.
+- [Day-7](./Day-7/README.md): Observability, monitoring, and tracing fundamentals with a trace context propagator sample.
 
 ## Goal 
 
@@ -90,3 +91,15 @@ Coordination, retries, and workflow correctness fundamentals for distributed sys
 [Read Day-6 notes](./Day-6/README.md)
 
 ![Day 6](./Day-6/Day6.png)
+
+## Day 7
+
+Observability, tracing, and production debugging fundamentals for distributed systems.
+
+- Topics: logs, metrics, traces, structured logging, correlation IDs, RED/USE metrics, dashboards, alerting, distributed tracing, sampling, telemetry cost
+- Focus: how to detect problems quickly and reconstruct request behavior across services
+- Sample project: trace context propagator in Python and Java
+
+[Read Day-7 notes](./Day-7/README.md)
+
+![Day 7](./Day-7/Day7.png)

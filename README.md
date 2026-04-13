@@ -11,6 +11,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-5](./Day-5/README.md): Reliability, security, and platform operations fundamentals with a token bucket rate limiter sample.
 - [Day-6](./Day-6/README.md): Coordination, idempotency, and distributed workflow fundamentals with an idempotent request processor sample.
 - [Day-7](./Day-7/README.md): Observability, monitoring, and tracing fundamentals with a trace context propagator sample.
+- [Day-8](./Day-8/README.md): Search, indexing, and information retrieval fundamentals with an inverted index search sample.
 
 ## Goal 
 
@@ -103,3 +104,15 @@ Observability, tracing, and production debugging fundamentals for distributed sy
 [Read Day-7 notes](./Day-7/README.md)
 
 ![Day 7](./Day-7/Day7.png)
+
+## Day 8
+
+Search, indexing, and information retrieval fundamentals for distributed systems.
+
+- Topics: search basics, inverted indexes, tokenization, ranking, autocomplete, indexing pipelines, sharding, replication, query fan-out
+- Focus: how to organize large content collections so users can retrieve relevant results quickly
+- Sample project: inverted index search in Python and Java
+
+[Read Day-8 notes](./Day-8/README.md)
+
+![Day 8](./Day-8/Day8.png)

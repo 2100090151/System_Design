@@ -12,6 +12,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-6](./Day-6/README.md): Coordination, idempotency, and distributed workflow fundamentals with an idempotent request processor sample.
 - [Day-7](./Day-7/README.md): Observability, monitoring, and tracing fundamentals with a trace context propagator sample.
 - [Day-8](./Day-8/README.md): Search, indexing, and information retrieval fundamentals with an inverted index search sample.
+- [Day-9](./Day-9/README.md): Caching, eviction, and data access performance fundamentals with an LRU cache sample.
 
 ## Goal 
 
@@ -116,3 +117,17 @@ Search, indexing, and information retrieval fundamentals for distributed systems
 [Read Day-8 notes](./Day-8/README.md)
 
 ![Day 8](./Day-8/Day8.png)
+
+
+## Day 9
+
+Caching, eviction, and data access performance fundamentals for distributed systems.
+
+- Topics: cache patterns, TTL, invalidation, eviction policies, local vs distributed cache, hot keys, stampedes, consistency
+- Focus: how to reduce read latency and backend load without losing freshness control
+- Sample project: LRU cache in Python and Java
+
+[Read Day-9 notes](./Day-9/README.md)
+
+![Day 9](./Day-9/Day9.png)
+

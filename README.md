@@ -13,6 +13,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-7](./Day-7/README.md): Observability, monitoring, and tracing fundamentals with a trace context propagator sample.
 - [Day-8](./Day-8/README.md): Search, indexing, and information retrieval fundamentals with an inverted index search sample.
 - [Day-9](./Day-9/README.md): Caching, eviction, and data access performance fundamentals with an LRU cache sample.
+- [Day-10](./Day-10/README.md): Queues, retries, and dead-letter handling fundamentals with a retry queue sample.
 
 ## Goal 
 
@@ -130,4 +131,18 @@ Caching, eviction, and data access performance fundamentals for distributed syst
 [Read Day-9 notes](./Day-9/README.md)
 
 ![Day 9](./Day-9/Day9.png)
+
+## Day 10
+
+Queues, retries, and dead-letter handling fundamentals for asynchronous processing workflows.
+
+- Topics: asynchronous queues, at-least-once delivery, idempotency, retries, dead-letter queues, backpressure
+- Focus: how to keep background processing reliable when workers fail or downstream systems are slow
+- Sample project: retry queue with dead-letter handling in Python and Java
+
+[Read Day-10 notes](./Day-10/README.md)
+
+![Day 10](./Day-10/Day10.png)
+
+
 

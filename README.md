@@ -14,6 +14,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-8](./Day-8/README.md): Search, indexing, and information retrieval fundamentals with an inverted index search sample.
 - [Day-9](./Day-9/README.md): Caching, eviction, and data access performance fundamentals with an LRU cache sample.
 - [Day-10](./Day-10/README.md): Queues, retries, and dead-letter handling fundamentals with a retry queue sample.
+- [Day-11](./Day-11/README.md): Streams, partitioned logs, and consumer-group offset management fundamentals with a partitioned log sample.
 
 ## Goal 
 
@@ -143,6 +144,18 @@ Queues, retries, and dead-letter handling fundamentals for asynchronous processi
 [Read Day-10 notes](./Day-10/README.md)
 
 ![Day 10](./Day-10/Day10.png)
+
+## Day 11
+
+Streams, partitioned logs, and consumer-group offset management fundamentals for event-driven systems.
+
+- Topics: append-only logs, partitioning, ordering guarantees, consumer groups, offsets, replay, retention, lag
+- Focus: how to decouple producers and consumers while preserving scalable throughput and recoverable consumption
+- Sample project: partitioned log with consumer groups and explicit offset commits in Python and Java
+
+[Read Day-11 notes](./Day-11/README.md)
+
+![Day 11](./Day-11/Day11.png)
 
 
 

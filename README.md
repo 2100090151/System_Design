@@ -15,6 +15,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-9](./Day-9/README.md): Caching, eviction, and data access performance fundamentals with an LRU cache sample.
 - [Day-10](./Day-10/README.md): Queues, retries, and dead-letter handling fundamentals with a retry queue sample.
 - [Day-11](./Day-11/README.md): Streams, partitioned logs, and consumer-group offset management fundamentals with a partitioned log sample.
+- [Day-12](./Day-12/README.md): Probabilistic data structures and Bloom filter fundamentals with a Bloom filter sample.
 
 ## Goal 
 
@@ -156,6 +157,16 @@ Streams, partitioned logs, and consumer-group offset management fundamentals for
 [Read Day-11 notes](./Day-11/README.md)
 
 ![Day 11](./Day-11/Day11.png)
+
+## Day 12
+
+Probabilistic data structures and memory-efficient membership testing fundamentals for large-scale systems.
+
+- Topics: Bloom filters, false positives, approximate membership, memory vs accuracy trade-offs, cache penetration protection, sketch-based thinking
+- Focus: how to answer membership-style questions cheaply before falling back to an exact system of record
+- Sample project: Bloom filter in Python and Java
+
+[Read Day-12 notes](./Day-12/README.md)
 
 
 

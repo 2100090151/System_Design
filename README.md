@@ -16,6 +16,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-10](./Day-10/README.md): Queues, retries, and dead-letter handling fundamentals with a retry queue sample.
 - [Day-11](./Day-11/README.md): Streams, partitioned logs, and consumer-group offset management fundamentals with a partitioned log sample.
 - [Day-12](./Day-12/README.md): Probabilistic data structures and Bloom filter fundamentals with a Bloom filter sample.
+- [Day-13](./Day-13/README.md): Merkle tree, data integrity, and anti-entropy fundamentals with a Merkle tree sample.
 
 ## Goal 
 
@@ -168,5 +169,17 @@ Probabilistic data structures and memory-efficient membership testing fundamenta
 
 [Read Day-12 notes](./Day-12/README.md)
 
-![Day 11](./Day-12/Day12.png)
+![Day 12](./Day-12/Day12.png)
+
+## Day 13
+
+Merkle trees, data integrity, and anti-entropy fundamentals for distributed storage and synchronization.
+
+- Topics: Merkle trees, root hashes, inclusion proofs, replica comparison, anti-entropy, hashing trade-offs
+- Focus: how to compare and verify large datasets efficiently without transferring every record
+- Sample project: Merkle tree in Python and Java
+
+[Read Day-13 notes](./Day-13/README.md)
+
+![Day 13](./Day-13/Day13.png)
 

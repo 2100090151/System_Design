@@ -17,6 +17,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-11](./Day-11/README.md): Streams, partitioned logs, and consumer-group offset management fundamentals with a partitioned log sample.
 - [Day-12](./Day-12/README.md): Probabilistic data structures and Bloom filter fundamentals with a Bloom filter sample.
 - [Day-13](./Day-13/README.md): Merkle tree, data integrity, and anti-entropy fundamentals with a Merkle tree sample.
+- [Day-14](./Day-14/README.md): Quorum replication, tunable consistency, and read-repair fundamentals with a quorum key-value sample.
 
 ## Goal 
 
@@ -183,3 +184,14 @@ Merkle trees, data integrity, and anti-entropy fundamentals for distributed stor
 
 ![Day 13](./Day-13/Day13.png)
 
+## Day 14
+
+Quorum replication, tunable consistency, and read-repair fundamentals for replicated databases.
+
+- Topics: quorum math (`N`, `R`, `W`), tunable consistency, stale reads, read repair, replication trade-offs
+- Focus: how to balance consistency, latency, and availability when replicas diverge
+- Sample project: quorum key-value store with read repair in Python and Java
+
+[Read Day-14 notes](./Day-14/README.md)
+
+![Day 14](./Day-14/Day14.png)

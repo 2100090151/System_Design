@@ -18,6 +18,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-12](./Day-12/README.md): Probabilistic data structures and Bloom filter fundamentals with a Bloom filter sample.
 - [Day-13](./Day-13/README.md): Merkle tree, data integrity, and anti-entropy fundamentals with a Merkle tree sample.
 - [Day-14](./Day-14/README.md): Quorum replication, tunable consistency, and read-repair fundamentals with a quorum key-value sample.
+- [Day-15](./Day-15/README.md): Raft consensus, leader election, and log replication fundamentals with a simplified Raft sample.
 
 ## Goal 
 
@@ -195,3 +196,15 @@ Quorum replication, tunable consistency, and read-repair fundamentals for replic
 [Read Day-14 notes](./Day-14/README.md)
 
 ![Day 14](./Day-14/Day14.png)
+
+## Day 15
+
+Raft consensus, leader election, and replicated log fundamentals for distributed coordination.
+
+- Topics: Raft roles and terms, majority voting, leader election, log replication, commit rules, safety trade-offs
+- Focus: how a cluster agrees on one ordered history of updates even when some nodes fail
+- Sample project: simplified Raft consensus simulation in Python and Java
+
+[Read Day-15 notes](./Day-15/README.md)
+
+![Day 15](./Day-15/Day15.png)

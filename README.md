@@ -19,6 +19,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-13](./Day-13/README.md): Merkle tree, data integrity, and anti-entropy fundamentals with a Merkle tree sample.
 - [Day-14](./Day-14/README.md): Quorum replication, tunable consistency, and read-repair fundamentals with a quorum key-value sample.
 - [Day-15](./Day-15/README.md): Raft consensus, leader election, and log replication fundamentals with a simplified Raft sample.
+- [Day-16](./Day-16/README.md): Two-phase commit, distributed transactions, and recovery fundamentals with a 2PC coordinator sample.
 
 ## Goal 
 
@@ -208,3 +209,15 @@ Raft consensus, leader election, and replicated log fundamentals for distributed
 [Read Day-15 notes](./Day-15/README.md)
 
 ![Day 15](./Day-15/Day15.png)
+
+## Day 16
+
+Two-phase commit, distributed transactions, and failure-recovery fundamentals for multi-service consistency.
+
+- Topics: transaction coordinator/participant roles, prepare/commit phases, decision logs, uncertain states, reconciliation
+- Focus: how to keep cross-service operations atomic when one business action spans multiple systems
+- Sample project: two-phase commit coordinator simulation in Python and Java
+
+[Read Day-16 notes](./Day-16/README.md)
+
+![Day 16](./Day-16/Day16.png)

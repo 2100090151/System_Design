@@ -20,6 +20,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-14](./Day-14/README.md): Quorum replication, tunable consistency, and read-repair fundamentals with a quorum key-value sample.
 - [Day-15](./Day-15/README.md): Raft consensus, leader election, and log replication fundamentals with a simplified Raft sample.
 - [Day-16](./Day-16/README.md): Two-phase commit, distributed transactions, and recovery fundamentals with a 2PC coordinator sample.
+- [Day-17](./Day-17/README.md): SOLID principles and maintainable service design fundamentals with a SOLID alert routing sample.
 
 ## Goal 
 
@@ -221,3 +222,17 @@ Two-phase commit, distributed transactions, and failure-recovery fundamentals fo
 [Read Day-16 notes](./Day-16/README.md)
 
 ![Day 16](./Day-16/Day16.png)
+
+## Day 17
+
+SOLID principles and maintainable service design fundamentals for extensible, testable software architecture.
+
+- Topics: SRP, OCP, LSP, ISP, DIP, interface design, dependency management
+- Focus: how to design modules and services that are easier to extend safely with low coupling
+- Sample project: SOLID alert routing service in Python and Java
+
+[Read Day-17 notes](./Day-17/README.md)
+
+![Day 17](./Day-17/Day17.png)
+
+[Day-17 PDF](./Day-17/System_Design_Day_17.pdf)

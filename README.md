@@ -21,6 +21,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-15](./Day-15/README.md): Raft consensus, leader election, and log replication fundamentals with a simplified Raft sample.
 - [Day-16](./Day-16/README.md): Two-phase commit, distributed transactions, and recovery fundamentals with a 2PC coordinator sample.
 - [Day-17](./Day-17/README.md): SOLID principles and maintainable service design fundamentals with a SOLID alert routing sample.
+- [Day-18](./Day-18/README.md): Saga pattern, compensating transactions, and orchestration fundamentals with an order saga sample.
 
 ## Goal 
 
@@ -236,3 +237,17 @@ SOLID principles and maintainable service design fundamentals for extensible, te
 ![Day 17](./Day-17/Day17.png)
 
 [Day-17 PDF](./Day-17/System_Design_Day_17.pdf)
+
+## Day 18
+
+Saga pattern, compensating transactions, and orchestration fundamentals for distributed workflows.
+
+- Topics: local transactions, orchestration, compensation logic, rollback sequencing, eventual consistency
+- Focus: how to keep multi-service business flows correct without strict global transactions
+- Sample project: order saga orchestrator in Python and Java
+
+[Read Day-18 notes](./Day-18/README.md)
+
+![Day 18](./Day-18/Day18.png)
+
+[Day-18 PDF](./Day-18/System_Design_Day_18.pdf)

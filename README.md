@@ -22,6 +22,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-16](./Day-16/README.md): Two-phase commit, distributed transactions, and recovery fundamentals with a 2PC coordinator sample.
 - [Day-17](./Day-17/README.md): SOLID principles and maintainable service design fundamentals with a SOLID alert routing sample.
 - [Day-18](./Day-18/README.md): Saga pattern, compensating transactions, and orchestration fundamentals with an order saga sample.
+- [Day-19](./Day-19/README.md): Transactional outbox, dual-write safety, and reliable event delivery fundamentals with an outbox relay sample.
 
 ## Goal 
 
@@ -251,3 +252,17 @@ Saga pattern, compensating transactions, and orchestration fundamentals for dist
 ![Day 18](./Day-18/Day18.png)
 
 [Day-18 PDF](./Day-18/System_Design_Day_18.pdf)
+
+## Day 19
+
+Transactional outbox, dual-write safety, and reliable event delivery fundamentals for event-driven systems.
+
+- Topics: dual-write failure modes, transactional outbox, relay polling, at-least-once delivery, idempotent consumers
+- Focus: how to store business state and event intent atomically, then publish reliably with retries
+- Sample project: transactional outbox simulation in Python and Java
+
+[Read Day-19 notes](./Day-19/README.md)
+
+![Day 19](./Day-19/Day19.png)
+
+[Day-19 PDF](./Day-19/System_Design_Day_19.pdf)

@@ -23,6 +23,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-17](./Day-17/README.md): SOLID principles and maintainable service design fundamentals with a SOLID alert routing sample.
 - [Day-18](./Day-18/README.md): Saga pattern, compensating transactions, and orchestration fundamentals with an order saga sample.
 - [Day-19](./Day-19/README.md): Transactional outbox, dual-write safety, and reliable event delivery fundamentals with an outbox relay sample.
+- [Day-20](./Day-20/README.md): CQRS, read-model projections, and eventual consistency fundamentals with a CQRS order projection sample.
 
 ## Goal 
 
@@ -266,3 +267,17 @@ Transactional outbox, dual-write safety, and reliable event delivery fundamental
 ![Day 19](./Day-19/Day19.png)
 
 [Day-19 PDF](./Day-19/System_Design_Day_19.pdf)
+
+## Day 20
+
+CQRS, read-model projections, and eventual consistency fundamentals for scalable event-driven systems.
+
+- Topics: command/query separation, write model vs read model, event projection, lag handling, replay
+- Focus: how to optimize command and query paths independently while preserving correctness
+- Sample project: CQRS order projection simulation in Python and Java
+
+[Read Day-20 notes](./Day-20/README.md)
+
+![Day 20](./Day-20/Day20.png)
+
+[Day-20 PDF](./Day-20/System_Design_Day_20.pdf)

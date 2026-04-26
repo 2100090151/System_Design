@@ -24,6 +24,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-18](./Day-18/README.md): Saga pattern, compensating transactions, and orchestration fundamentals with an order saga sample.
 - [Day-19](./Day-19/README.md): Transactional outbox, dual-write safety, and reliable event delivery fundamentals with an outbox relay sample.
 - [Day-20](./Day-20/README.md): CQRS, read-model projections, and eventual consistency fundamentals with a CQRS order projection sample.
+- [Day-21](./Day-21/README.md): Event sourcing, snapshotting, and aggregate rebuild fundamentals with an event-sourced account ledger sample.
 
 ## Goal 
 
@@ -281,3 +282,17 @@ CQRS, read-model projections, and eventual consistency fundamentals for scalable
 ![Day 20](./Day-20/Day20.png)
 
 [Day-20 PDF](./Day-20/System_Design_Day_20.pdf)
+
+## Day 21
+
+Event sourcing, snapshotting, and aggregate rebuild fundamentals for audit-friendly event-driven systems.
+
+- Topics: append-only event store, optimistic concurrency, replay, snapshotting, event contracts
+- Focus: how to make domain events the source of truth and reconstruct state reliably
+- Sample project: event-sourced account ledger simulation in Python and Java
+
+[Read Day-21 notes](./Day-21/README.md)
+
+![Day 21](./Day-21/Day21.png)
+
+[Day-21 PDF](./Day-21/System_Design_Day_21.pdf)

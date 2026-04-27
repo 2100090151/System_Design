@@ -25,6 +25,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-19](./Day-19/README.md): Transactional outbox, dual-write safety, and reliable event delivery fundamentals with an outbox relay sample.
 - [Day-20](./Day-20/README.md): CQRS, read-model projections, and eventual consistency fundamentals with a CQRS order projection sample.
 - [Day-21](./Day-21/README.md): Event sourcing, snapshotting, and aggregate rebuild fundamentals with an event-sourced account ledger sample.
+- [Day-22](./Day-22/README.md): Event versioning, schema evolution, and upcasting fundamentals with an event upcasting ledger sample.
 
 ## Goal 
 
@@ -296,3 +297,17 @@ Event sourcing, snapshotting, and aggregate rebuild fundamentals for audit-frien
 ![Day 21](./Day-21/Day21.png)
 
 [Day-21 PDF](./Day-21/System_Design_Day_21.pdf)
+
+## Day 22
+
+Event versioning, schema evolution, and upcasting fundamentals for long-lived event-driven systems.
+
+- Topics: event contract versioning, backward compatibility, upcaster chains, replay safety, schema evolution trade-offs
+- Focus: how to keep historical and current events consumable together without rewriting immutable history
+- Sample project: event upcasting ledger in Python and Java
+
+[Read Day-22 notes](./Day-22/README.md)
+
+![Day 22](./Day-22/Day22.png)
+
+[Day-22 PDF](./Day-22/System_Design_Day_22.pdf)

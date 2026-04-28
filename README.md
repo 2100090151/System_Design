@@ -26,6 +26,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-20](./Day-20/README.md): CQRS, read-model projections, and eventual consistency fundamentals with a CQRS order projection sample.
 - [Day-21](./Day-21/README.md): Event sourcing, snapshotting, and aggregate rebuild fundamentals with an event-sourced account ledger sample.
 - [Day-22](./Day-22/README.md): Event versioning, schema evolution, and upcasting fundamentals with an event upcasting ledger sample.
+- [Day-23](./Day-23/README.md): Schema registry, compatibility checks, and contract safety fundamentals with a schema registry simulator sample.
 
 ## Goal 
 
@@ -311,3 +312,17 @@ Event versioning, schema evolution, and upcasting fundamentals for long-lived ev
 ![Day 22](./Day-22/Day22.png)
 
 [Day-22 PDF](./Day-22/System_Design_Day_22.pdf)
+
+## Day 23
+
+Schema registry, compatibility checks, and contract safety fundamentals for resilient event-driven systems.
+
+- Topics: versioned message contracts, backward compatibility rules, publish-time validation, producer/consumer evolution
+- Focus: how to evolve message schemas safely without breaking independent services
+- Sample project: schema registry compatibility simulator in Python and Java
+
+[Read Day-23 notes](./Day-23/README.md)
+
+![Day 23](./Day-23/Day23.png)
+
+[Day-23 PDF](./Day-23/System_Design_Day_23.pdf)

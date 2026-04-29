@@ -27,6 +27,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-21](./Day-21/README.md): Event sourcing, snapshotting, and aggregate rebuild fundamentals with an event-sourced account ledger sample.
 - [Day-22](./Day-22/README.md): Event versioning, schema evolution, and upcasting fundamentals with an event upcasting ledger sample.
 - [Day-23](./Day-23/README.md): Schema registry, compatibility checks, and contract safety fundamentals with a schema registry simulator sample.
+- [Day-24](./Day-24/README.md): Idempotent consumer, deduplication, and delivery guarantee fundamentals with an idempotent payment consumer sample.
 
 ## Goal 
 
@@ -326,3 +327,17 @@ Schema registry, compatibility checks, and contract safety fundamentals for resi
 ![Day 23](./Day-23/Day23.png)
 
 [Day-23 PDF](./Day-23/System_Design_Day_23.pdf)
+
+## Day 24
+
+Idempotent consumer, deduplication, and delivery guarantee fundamentals for reliable event processing.
+
+- Topics: at-least-once delivery, dedup keys, replay safety, duplicate side-effect prevention, processing metrics
+- Focus: how to make message processing safe under retries and redelivery without double-applying business effects
+- Sample project: idempotent payment consumer simulation in Python and Java
+
+[Read Day-24 notes](./Day-24/README.md)
+
+![Day 24](./Day-24/Day24.png)
+
+[Day-24 PDF](./Day-24/System_Design_Day_24.pdf)

@@ -28,6 +28,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-22](./Day-22/README.md): Event versioning, schema evolution, and upcasting fundamentals with an event upcasting ledger sample.
 - [Day-23](./Day-23/README.md): Schema registry, compatibility checks, and contract safety fundamentals with a schema registry simulator sample.
 - [Day-24](./Day-24/README.md): Idempotent consumer, deduplication, and delivery guarantee fundamentals with an idempotent payment consumer sample.
+- [Day-25](./Day-25/README.md): Inbox pattern, exactly-once effect, and consumer reliability fundamentals with a durable inbox payment consumer sample.
 
 ## Goal 
 
@@ -341,3 +342,17 @@ Idempotent consumer, deduplication, and delivery guarantee fundamentals for reli
 ![Day 24](./Day-24/Day24.png)
 
 [Day-24 PDF](./Day-24/System_Design_Day_24.pdf)
+
+## Day 25
+
+Inbox pattern, exactly-once effect, and consumer reliability fundamentals for duplicate-safe event processing.
+
+- Topics: durable dedup store, at-least-once delivery, retry safety, transactional processing boundary, duplicate metrics
+- Focus: how to ensure each logical message causes one business effect even under repeated delivery
+- Sample project: durable inbox payment consumer simulation in Python and Java
+
+[Read Day-25 notes](./Day-25/README.md)
+
+![Day 25](./Day-25/Day25.png)
+
+[Day-25 PDF](./Day-25/System_Design_Day_25.pdf)

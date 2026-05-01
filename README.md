@@ -29,6 +29,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-23](./Day-23/README.md): Schema registry, compatibility checks, and contract safety fundamentals with a schema registry simulator sample.
 - [Day-24](./Day-24/README.md): Idempotent consumer, deduplication, and delivery guarantee fundamentals with an idempotent payment consumer sample.
 - [Day-25](./Day-25/README.md): Inbox pattern, exactly-once effect, and consumer reliability fundamentals with a durable inbox payment consumer sample.
+- [Day-26](./Day-26/README.md): Retry backoff, dead letter queue, and poison message handling fundamentals with a retry + DLQ simulator sample.
 
 ## Goal 
 
@@ -356,3 +357,17 @@ Inbox pattern, exactly-once effect, and consumer reliability fundamentals for du
 ![Day 25](./Day-25/Day25.png)
 
 [Day-25 PDF](./Day-25/System_Design_Day_25.pdf)
+
+## Day 26
+
+Retry backoff, dead letter queue, and poison message handling fundamentals for resilient asynchronous processing.
+
+- Topics: bounded retries, backoff policy, max-attempt cutoff, DLQ routing, retry observability
+- Focus: how to recover transient failures while isolating permanently failing messages
+- Sample project: retry + DLQ simulation in Python and Java
+
+[Read Day-26 notes](./Day-26/README.md)
+
+![Day 26](./Day-26/Day26.png)
+
+[Day-26 PDF](./Day-26/System_Design_Day_26.pdf)

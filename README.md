@@ -30,6 +30,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-24](./Day-24/README.md): Idempotent consumer, deduplication, and delivery guarantee fundamentals with an idempotent payment consumer sample.
 - [Day-25](./Day-25/README.md): Inbox pattern, exactly-once effect, and consumer reliability fundamentals with a durable inbox payment consumer sample.
 - [Day-26](./Day-26/README.md): Retry backoff, dead letter queue, and poison message handling fundamentals with a retry + DLQ simulator sample.
+- [Day-27](./Day-27/README.md): Backpressure, flow control, and load shedding fundamentals with a backpressure admission controller sample.
 
 ## Goal 
 
@@ -371,3 +372,17 @@ Retry backoff, dead letter queue, and poison message handling fundamentals for r
 ![Day 26](./Day-26/Day26.png)
 
 [Day-26 PDF](./Day-26/System_Design_Day_26.pdf)
+
+## Day 27
+
+Backpressure, flow control, and load shedding fundamentals for overload-safe distributed systems.
+
+- Topics: bounded queues, lag signals, watermark admission control, throttling, load shedding, stability trade-offs
+- Focus: how to keep services responsive and stable when incoming traffic exceeds processing capacity
+- Sample project: backpressure admission controller simulation in Python and Java
+
+[Read Day-27 notes](./Day-27/README.md)
+
+![Day 27](./Day-27/Day27.png)
+
+[Day-27 PDF](./Day-27/System_Design_Day_27.pdf)

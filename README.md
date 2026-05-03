@@ -31,6 +31,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-25](./Day-25/README.md): Inbox pattern, exactly-once effect, and consumer reliability fundamentals with a durable inbox payment consumer sample.
 - [Day-26](./Day-26/README.md): Retry backoff, dead letter queue, and poison message handling fundamentals with a retry + DLQ simulator sample.
 - [Day-27](./Day-27/README.md): Backpressure, flow control, and load shedding fundamentals with a backpressure admission controller sample.
+- [Day-28](./Day-28/README.md): Bulkhead isolation, worker pools, and blast radius control fundamentals with a bulkhead worker pool simulator sample.
 
 ## Goal 
 
@@ -386,3 +387,17 @@ Backpressure, flow control, and load shedding fundamentals for overload-safe dis
 ![Day 27](./Day-27/Day27.png)
 
 [Day-27 PDF](./Day-27/System_Design_Day_27.pdf)
+
+## Day 28
+
+Bulkhead isolation, worker pools, and blast-radius control fundamentals for overload-safe distributed services.
+
+- Topics: resource isolation, per-lane queues, lane saturation metrics, graceful degradation, capacity partitioning
+- Focus: how to keep critical traffic healthy when one workload class or dependency is overloaded
+- Sample project: bulkhead worker pool simulator in Python and Java
+
+[Read Day-28 notes](./Day-28/README.md)
+
+![Day 28](./Day-28/Day28.png)
+
+[Day-28 PDF](./Day-28/System_Design_Day_28.pdf)

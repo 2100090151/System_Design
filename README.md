@@ -32,6 +32,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-26](./Day-26/README.md): Retry backoff, dead letter queue, and poison message handling fundamentals with a retry + DLQ simulator sample.
 - [Day-27](./Day-27/README.md): Backpressure, flow control, and load shedding fundamentals with a backpressure admission controller sample.
 - [Day-28](./Day-28/README.md): Bulkhead isolation, worker pools, and blast radius control fundamentals with a bulkhead worker pool simulator sample.
+- [Day-29](./Day-29/README.md): Circuit breaker, failure thresholds, and recovery probing fundamentals with a dependency guard sample.
 
 ## Goal 
 
@@ -401,3 +402,17 @@ Bulkhead isolation, worker pools, and blast-radius control fundamentals for over
 ![Day 28](./Day-28/Day28.png)
 
 [Day-28 PDF](./Day-28/System_Design_Day_28.pdf)
+
+## Day 29
+
+Circuit breaker, failure thresholds, and recovery probing fundamentals for dependency-failure resilience.
+
+- Topics: closed/open/half-open states, failure thresholds, cooldown windows, probe requests, fail-fast fallback
+- Focus: how to prevent repeated downstream failures from cascading into wider service instability
+- Sample project: circuit breaker dependency guard simulation in Python and Java
+
+[Read Day-29 notes](./Day-29/README.md)
+
+![Day 29](./Day-29/Day29.png)
+
+[Day-29 PDF](./Day-29/System_Design_Day_29.pdf)

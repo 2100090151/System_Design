@@ -33,6 +33,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-27](./Day-27/README.md): Backpressure, flow control, and load shedding fundamentals with a backpressure admission controller sample.
 - [Day-28](./Day-28/README.md): Bulkhead isolation, worker pools, and blast radius control fundamentals with a bulkhead worker pool simulator sample.
 - [Day-29](./Day-29/README.md): Circuit breaker, failure thresholds, and recovery probing fundamentals with a dependency guard sample.
+- [Day-30](./Day-30/README.md): Timeouts, deadlines, and cancellation propagation fundamentals with a deadline guarded request chain sample.
 
 ## Goal 
 
@@ -416,3 +417,13 @@ Circuit breaker, failure thresholds, and recovery probing fundamentals for depen
 ![Day 29](./Day-29/Day29.png)
 
 [Day-29 PDF](./Day-29/System_Design_Day_29.pdf)
+
+## Day 30
+
+Timeouts, deadlines, and cancellation propagation fundamentals for latency-bounded distributed request paths.
+
+- Topics: per-hop timeout budgeting, deadline propagation, cancellation semantics, fail-fast behavior, latency trade-offs
+- Focus: how to bound tail latency and prevent wasted downstream work when dependencies are slow
+- Sample project: deadline guarded request chain simulation in Python and Java
+
+[Read Day-30 notes](./Day-30/README.md)

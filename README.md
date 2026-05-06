@@ -34,6 +34,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-28](./Day-28/README.md): Bulkhead isolation, worker pools, and blast radius control fundamentals with a bulkhead worker pool simulator sample.
 - [Day-29](./Day-29/README.md): Circuit breaker, failure thresholds, and recovery probing fundamentals with a dependency guard sample.
 - [Day-30](./Day-30/README.md): Timeouts, deadlines, and cancellation propagation fundamentals with a deadline guarded request chain sample.
+- [Day-31](./Day-31/README.md): Hedged requests, tail latency, and duplicate suppression fundamentals with a hedged request race simulator sample.
 
 ## Goal 
 
@@ -427,3 +428,17 @@ Timeouts, deadlines, and cancellation propagation fundamentals for latency-bound
 - Sample project: deadline guarded request chain simulation in Python and Java
 
 [Read Day-30 notes](./Day-30/README.md)
+
+## Day 31
+
+Hedged requests, tail latency, and duplicate suppression fundamentals for straggler-resistant distributed request paths.
+
+- Topics: delayed duplicate requests, first-success-wins, cancellation of losers, hedge delay tuning, idempotency safety
+- Focus: how to reduce p95/p99 latency by racing backup replicas while controlling duplicate traffic overhead
+- Sample project: hedged request race simulator in Python and Java
+
+[Read Day-31 notes](./Day-31/README.md)
+
+![Day 31](./Day-31/Day31.png)
+
+[Day-31 PDF](./Day-31/System_Design_Day_31.pdf)

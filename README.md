@@ -35,6 +35,7 @@ This repository tracks day-wise system design preparation notes and sample proje
 - [Day-29](./Day-29/README.md): Circuit breaker, failure thresholds, and recovery probing fundamentals with a dependency guard sample.
 - [Day-30](./Day-30/README.md): Timeouts, deadlines, and cancellation propagation fundamentals with a deadline guarded request chain sample.
 - [Day-31](./Day-31/README.md): Hedged requests, tail latency, and duplicate suppression fundamentals with a hedged request race simulator sample.
+- [Day-32](./Day-32/README.md): Request coalescing, cache stampede protection, and one-flight fundamentals with a request coalescing simulator sample.
 
 ## Goal 
 
@@ -442,3 +443,15 @@ Hedged requests, tail latency, and duplicate suppression fundamentals for stragg
 ![Day 31](./Day-31/Day31.png)
 
 [Day-31 PDF](./Day-31/System_Design_Day_31.pdf)
+
+## Day 32
+
+Request coalescing, cache stampede protection, and one-flight fundamentals for hot-key resilience in distributed cache-backed services.
+
+- Topics: one-flight model, cache miss coalescing, waiter fan-in, TTL behavior, backend protection under bursts
+- Focus: how to avoid duplicate backend fetch storms when many requests miss the same key at the same time
+- Sample project: request coalescing simulator in Python and Java
+
+[Read Day-32 notes](./Day-32/README.md)
+
+[Day-32 PDF](./Day-32/System_Design_Day_32.pdf)
